@@ -1,1 +1,53 @@
 /* Add CSS styling here */
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.top{
+    background-color: grey;    
+}
+a{
+    width: 50px;
+    padding: 8px;
+    border: 2px solid black; 
+    margin: 30px 0;   
+    color: black;
+    text-decoration: none;    
+}
+
+.aboutme img{
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+.aboutme p{
+    text-align: center;
+}
+
+.aboutme{
+    padding: 20px;
+}
+
+.topcontent{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    width: 15%; 
+    padding: 10px;  
+}
+.middlecontent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+footer{
+    text-align: center;
+    background-color: grey;
+}
