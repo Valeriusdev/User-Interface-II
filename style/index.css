@@ -7,7 +7,9 @@
 }
 
 .top{
-    background-color: grey;    
+    height: 120px;
+    padding: 10px;
+    background-color: grey;       
 }
 a{
     width: 50px;
@@ -18,17 +20,14 @@ a{
     text-decoration: none;    
 }
 
-.aboutme img{
-    width: 40px;
-    height: 40px;
-    margin: 20px;
-}
-.aboutme p{
-    text-align: center;
+.topcontent img{
+    width: 50%;
+    height: 310px;
+    margin: 10px;
 }
 
 .aboutme{
-    padding: 20px;
+    padding: 10px;
 }
 
 .topcontent{
@@ -36,8 +35,11 @@ a{
     flex-direction: row;
 }
 .content{
-    width: 15%; 
-    padding: 10px;  
+    width: 15%;     
+    padding: 5px;  
+}
+.content h2{
+    text-align: center;
 }
 .middlecontent{
     display: flex;
@@ -45,9 +47,16 @@ a{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+.bottomcontent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 footer{
+    height: 120px;
+    padding: 10px;
     text-align: center;
     background-color: grey;
 }
